@@ -34,7 +34,7 @@ public class UserController {
         if ("success".equals(result)){
             return ResultUtil.ok();
         }
-        return ResultUtil.error("账户或者密码错误!");
+        return ResultUtil.error("账户或者密码错误! ");
     }
 
     @RequestMapping(value = "/toLogin", method = RequestMethod.GET)
